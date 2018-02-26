@@ -1,0 +1,5 @@
+CREATE PROCEDURE volleyballResults()
+BEGIN
+	SELECT * FROM results
+    order by wins asc;
+END
